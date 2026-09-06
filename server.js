@@ -143,6 +143,7 @@ app.post("/api/chat", async (req, res) => {
     res.json({ reply });
   } catch (err) {
     if (err && err.name === "AbortError") {
+console.error("Gemini request timed out after 25s");
       return res.status(504).json({ error: "That took too long to answer. Please try again." });
     }
     console.error("Unexpected /api/chat error:", err.message);
