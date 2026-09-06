@@ -104,7 +104,7 @@ app.post("/api/chat", async (req, res) => {
     contents.push({ role: "user", parts: [{ text: message.trim() }] });
 
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 15000);
+    const timeout = setTimeout(() => controller.abort(), 25000);
 
     let geminiResponse;
     try {
