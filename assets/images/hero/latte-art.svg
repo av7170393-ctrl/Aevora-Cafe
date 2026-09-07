@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="800" height="800" role="img">
+<rect width="100%" height="100%" fill="#FBF6EC"/>
+<defs>
+  <radialGradient id="wash" cx="30%" cy="20%" r="90%">
+    <stop offset="0%" stop-color="#EDE0C6"/>
+    <stop offset="100%" stop-color="#FBF6EC"/>
+  </radialGradient>
+</defs>
+<rect width="400" height="400" fill="url(#wash)"/>
+<ellipse cx="200" cy="330" rx="90" ry="12" fill="#3B2418" opacity="0.12"/>
+<path d="M110 150h180l-16 150a30 30 0 0 1-30 26H156a30 30 0 0 1-30-26L110 150z" fill="#FBF6EC" stroke="#3B2418" stroke-width="4"/>
+<ellipse cx="200" cy="150" rx="90" ry="16" fill="#8A5A2B"/>
+<path d="M290 165h22a26 26 0 0 1 0 52h-24" fill="none" stroke="#3B2418" stroke-width="5"/>
+<g fill="#FBF6EC">
+<path d="M200 110 c-10 20 -10 30 0 40 c10 -10 10 -20 0 -40z"/>
+<path d="M200 118 c-16 26 -16 40 0 52 c16 -12 16 -26 0 -52z" opacity="0.85"/>
+</g>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="800" height="800" role="img">
+<rect width="100%" height="100%" fill="#FBF6EC"/>
+<defs>
+  <radialGradient id="wash" cx="30%" cy="20%" r="90%">
+    <stop offset="0%" stop-color="#FBF6EC"/>
+    <stop offset="100%" stop-color="#EDE0C6"/>
+  </radialGradient>
+</defs>
+<rect width="400" height="400" fill="url(#wash)"/>
+<path d="M140 120h120l-16 200a14 14 0 0 1-14 12h-60a14 14 0 0 1-14-12L140 120z" fill="#FBF6EC" stroke="#3B2418" stroke-width="4"/>
+<path d="M146 170h108l-12 150a10 10 0 0 1-10 9h-64a10 10 0 0 1-10-9L146 170z" fill="#6F4423"/>
+<path d="M146 170h108l-4 46h-100z" fill="#8A5A2B"/>
+<g fill="#FBF6EC" opacity="0.7"><rect x="170" y="150" width="6" height="60" rx="3"/><rect x="190" y="140" width="6" height="70" rx="3"/><rect x="210" y="155" width="6" height="55" rx="3"/></g>
+<rect x="196" y="70" width="8" height="70" rx="4" fill="#C79A4B"/>
+<ellipse cx="200" cy="330" rx="70" ry="10" fill="#3B2418" opacity="0.1"/>
+
+</svg>

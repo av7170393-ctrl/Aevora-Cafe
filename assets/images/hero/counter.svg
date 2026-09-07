@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="800" height="800" role="img">
+<rect width="100%" height="100%" fill="#FBF6EC"/>
+<defs>
+  <radialGradient id="wash" cx="30%" cy="20%" r="90%">
+    <stop offset="0%" stop-color="#EDE0C6"/>
+    <stop offset="100%" stop-color="#E3D3AF"/>
+  </radialGradient>
+</defs>
+<rect width="400" height="400" fill="url(#wash)"/>
+<rect x="20" y="240" width="360" height="120" fill="#3B2418"/>
+<rect x="20" y="228" width="360" height="18" fill="#C79A4B"/>
+<g fill="#FBF6EC">
+<rect x="60" y="180" width="30" height="50" rx="4"/>
+<rect x="110" y="170" width="30" height="60" rx="4"/>
+<rect x="160" y="185" width="30" height="45" rx="4"/>
+</g>
+<circle cx="280" cy="200" r="34" fill="#55311F"/>
+<rect x="255" y="196" width="50" height="10" fill="#C79A4B"/>
+<rect x="300" y="188" width="14" height="26" rx="4" fill="#55311F"/>
+<g stroke="#55311F" stroke-width="2" fill="none">
+<path d="M320 300h40M320 315h40M320 330h40"/>
+</g>
+
+</svg>

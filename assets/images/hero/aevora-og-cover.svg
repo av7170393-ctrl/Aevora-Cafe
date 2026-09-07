@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<defs><radialGradient id="ogwash" cx="25%" cy="20%" r="100%">
+<stop offset="0%" stop-color="#55311F"/><stop offset="100%" stop-color="#3B2418"/>
+</radialGradient></defs>
+<rect width="1200" height="630" fill="url(#ogwash)"/>
+<circle cx="1000" cy="130" r="220" fill="#C79A4B" opacity="0.12"/>
+<circle cx="150" cy="520" r="180" fill="#C79A4B" opacity="0.1"/>
+<text x="100" y="300" font-family="Georgia, serif" font-size="86" font-weight="700" fill="#FBF6EC">Aevora Cafe</text>
+<text x="100" y="360" font-family="Georgia, serif" font-size="34" font-style="italic" fill="#E9C87A">Good Food. Great Coffee. Better Moments.</text>
+<text x="100" y="420" font-family="Arial, sans-serif" font-size="24" fill="#FBF6EC" opacity="0.75">100%25 Vegetarian Cafe — Lucknow</text>
+<g transform="translate(900,420)">
+<path d="M0 0h140l-12 100a24 24 0 0 1-24 22H36A24 24 0 0 1 12 100L0 0z" fill="#FBF6EC" stroke="#3B2418" stroke-width="3"/>
+<path d="M140 18h20a26 26 0 0 1 0 52h-24" fill="none" stroke="#FBF6EC" stroke-width="4"/>
+</g>
+</svg>
