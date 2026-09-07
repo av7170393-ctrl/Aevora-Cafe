@@ -108,12 +108,12 @@ app.post("/api/chat", async (req, res) => {
 
     let geminiResponse;
     try {
-      geminiResponse = await fetch(`${GEMINI_ENDPOINT}?key=${GEMINI_API_KEY}`, {
+      geminiResponse = await fetch(GEMINI_ENDPOINT, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-
-      "X-goog-api-key": GEMINI_API_KEY
-    },
+        headers: {
+          "Content-Type": "application/json",
+          "X-goog-api-key": GEMINI_API_KEY
+        },
         body: JSON.stringify({
           systemInstruction: { role: "system", parts: [{ text: SYSTEM_INSTRUCTION }] },
           contents,
