@@ -904,3 +904,4 @@ function showToast(message){
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => toast.classList.remove("show"), 2600);
 }
+
